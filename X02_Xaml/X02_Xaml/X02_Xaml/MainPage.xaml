@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="X02_Xaml.MainPage">
+
+    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+        
+        <Label x:Name="lblResult" Text="Enter A number"></Label>
+        
+        <Entry x:Name="Input1"></Entry>
+        
+        <Picker x:Name="operation" TitleColor="Red">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Multiply</x:String>
+                    <x:String>Divide</x:String>
+                    <x:String>Add</x:String>
+                    <x:String>Subtract</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+
+        <Entry x:Name="Input2"></Entry>
+        
+        <Button x:Name="btnClick" Text="Calculate"></Button>
+        <Label x:Name="Output" Text="this is tmp"></Label>
+    </StackLayout>
+
+</ContentPage>
