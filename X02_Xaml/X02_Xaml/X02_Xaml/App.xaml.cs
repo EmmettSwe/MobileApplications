@@ -44,6 +44,7 @@ namespace X02_Xaml
             };
 
             MainPage = new ContentPage { Content = stackLayout };*/
+
         }
 
         protected override void OnStart()
