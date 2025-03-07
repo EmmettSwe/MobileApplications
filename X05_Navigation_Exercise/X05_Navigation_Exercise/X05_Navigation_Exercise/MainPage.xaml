@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="X05_Navigation_Exercise.MainPage">
+
+    <StackLayout>
+        <Button Text="Joe" x:Name="lbl1"/>
+        <Button Text="Jane" x:Name="lbl2"/>
+        <Button Text="Jenny" x:Name="lbl3"/>
+
+        <Button Text="Joe" x:Name="lbl11"/>
+        <Button Text="Jane" x:Name="lbl22"/>
+        <Button Text="Jenny" x:Name="lbl33"/>
+        
+        <Button Text="READ CHANGES" x:Name="changes"/>
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="X05_Navigation.MainPage">
+
+    
+    <StackLayout>
+        <Button Text="New Page" x:Name="btnNew"/>
+        <Button Text="New Modal Page" x:Name="btnNewModal"/>
+    </StackLayout>
+
+</ContentPage>
